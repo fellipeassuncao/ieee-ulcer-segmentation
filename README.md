@@ -12,22 +12,30 @@ The project hierarchy and folders description is as follows
 
 ## Requirements
 
-Matlab 2021b or later.
-Python 3.10 or later.
+- Matlab 2021b or later.
+- Python 3.10 or later.
 
+- Check dependences in pom.xml
 
-### Python
 ## Screenshots
 
+### Classification
 ![Classification](/screenshots/classificacao.JPG "Classification")
+
+### Segmentation
+![Segmentation](/screenshots/segmentation.PNG "Segmentation")
+### Labeling
+![Labeling](/screenshots/labeling.png "Labeling")
+### GrabCut SVM
+![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM")
+### Examples and DISF Results
+![Examples and DISF Results](/screenshots/exemplosdisf.JPG "Examples and DISF Results")
 
 ## Instruction for running the GUI JAVA
 
-mvn clean install
-mvn exec:java -Dexec.mainClass="com.rodolfo.ulcer.segmentation.Main"
+- mvn clean install
+- mvn exec:java -Dexec.mainClass="com.rodolfo.ulcer.segmentation.Main"
 
-git pull
-git checkout fix-version-depency-pom
 ## Instruction for running the Notebook Python
 
 We develop this code using Google Colab.
