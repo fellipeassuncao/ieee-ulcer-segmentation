@@ -19,28 +19,18 @@ The project hierarchy and folders description is as follows
 
 ## Screenshots
 ### Classification
-<div align="center">
-![Classification](/screenshots/classificacao.JPG "Classification" width=100)
-</div>
+![Classification](/screenshots/classificacao.JPG "Classification")
+
 ### Segmentation
-<div align="center">
-![Segmentation](/screenshots/segmentation.PNG "Segmentation" width=100)
-</div>
+![Segmentation](/screenshots/segmentation.PNG "Segmentation")
 
 ### Labeling
-<div align="center">
-![Labeling](/screenshots/labeling.png "Labeling"  width=100)
-</div>
+![Labeling](/screenshots/labeling.png "Labeling")
 
 ### SVM and GrabCut Methods
-<div align="center">
-![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM"  width=100)
-</div>
-
+![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM")
 ### DISF Results and Examples
-<div align="center">
 ![DISF Results and Examples](/screenshots/exemplosdisf.JPG "DISF Results and Examples")
-</div>
 
 ## Instruction for running the GUI JAVA
 
@@ -52,3 +42,4 @@ Open the project path in your preferred IDLE and type in the terminal:
 
 We develop this code using Google Colab.
 We mount the drive using the path hierarchy described in "Project Hierarchy  and Folder Description"
+
