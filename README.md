@@ -36,6 +36,7 @@ The project hierarchy and folders description is as follows
 
 ## Instruction for running the GUI JAVA
 
+Open the project path in your preferred IDLE and type in the terminal:
 - mvn clean install
 - mvn exec:java -Dexec.mainClass="com.rodolfo.ulcer.segmentation.Main"
 
