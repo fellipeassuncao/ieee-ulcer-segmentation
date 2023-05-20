@@ -4,11 +4,7 @@ Monitoring wound healing is a necessary procedure to help health services contro
 
 ![Methodology](/screenshots/method.JPG "Methodology")
 
-Resources and extra documentation for the manuscript "A graph-based superpixel segmentation method for measuring pressure ulcers" published in IEEE Latin America Transactions. The code is organized by the type of programming language used in the project in the following order Java (main project) -> Matlab (extract some superpixels) -> Python (extract another superpixels and do the statistics and overlapping for generated masks in DISF, ERS, SNIC). 
-
-## Project Hierarchy  and Folder Description
-
-The project hierarchy and folders description is as follows
+Resources and extra documentation for the manuscript "A graph-based superpixel segmentation method for measuring pressure ulcers" published in IEEE Latin America Transactions. The code is organized by the type of programming language used in the project in the following order Java (main project) -> Matlab (extract some superpixels) -> Python (extract another superpixels and do the statistics and overlapping for generated masks in DISF, ERS, SNIC).
 
 ## Requirements
 
@@ -35,11 +31,13 @@ The project hierarchy and folders description is as follows
 ## Instruction for running the GUI JAVA
 
 Open the project path in your preferred IDLE and type in the terminal:
+
 - mvn clean install
 - mvn exec:java -Dexec.mainClass="com.rodolfo.ulcer.segmentation.Main"
 
-## Instruction for running the Notebook Python
+## Instruction for running the Python Notebook
 
 We develop this code using Google Colab.
-We mount the drive using the path hierarchy described in "Project Hierarchy  and Folder Description"
+We mount the drive using the path hierarchy like developed in code.
 
+![Python Notebook](https://github.com/fellipeassuncao/master-project/blob/main/python/main.ipynb)
