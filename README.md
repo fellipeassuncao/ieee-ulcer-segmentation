@@ -40,4 +40,4 @@ Open the project path in your preferred IDLE and type in the terminal:
 We develop this code using Google Colab.
 We mount the drive using the path hierarchy like developed in code.
 
-![Python Notebook](https://github.com/fellipeassuncao/master-project/blob/main/python/main.ipynb)
+[Python Notebook](https://github.com/fellipeassuncao/master-project/blob/main/python/main.ipynb)
