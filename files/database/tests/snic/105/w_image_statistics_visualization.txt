@@ -1,0 +1,32 @@
+******************************************
+************* Method: SVM ***************
+******************************************
+IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_POSITIVES  FALSE_NEGATIVES  SENSITIVITY  SPECIFICITY  PRECISION  ACCURACY  INTERSECTION_UNION  MIN SEPAI  MAX SEPAI  MEAN SEPAI
+       105          200        0.030159         21043.0         43304.0           3221.0           4432.0     0.826026     0.930768   0.867252  0.893708            0.733308   0.733308   0.930768    0.850212
+    MEAN:           200        0.030159         21043.0         43304.0           3221.0           4432.0     0.826026     0.930768   0.867252  0.893708            0.733308   0.733308   0.930768    0.850212
+     STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000     0.000000   0.000000  0.000000            0.000000   0.000000   0.000000    0.000000
+
+******************************************
+************* Method: GRAB ***************
+******************************************
+IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_POSITIVES  FALSE_NEGATIVES  SENSITIVITY  SPECIFICITY  PRECISION  ACCURACY  INTERSECTION_UNION  MIN SEPAI  MAX SEPAI  MEAN SEPAI
+       105          200        0.030159         20383.0         46095.0            430.0           5092.0     0.800118     0.990758    0.97934  0.923306            0.786837   0.786837   0.990758    0.896071
+    MEAN:           200        0.030159         20383.0         46095.0            430.0           5092.0     0.800118     0.990758    0.97934  0.923306            0.786837   0.786837   0.990758    0.896071
+     STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000     0.000000    0.00000  0.000000            0.000000   0.000000   0.000000    0.000000
+
+******************************************
+************* Method: IFT ***************
+******************************************
+IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_POSITIVES  FALSE_NEGATIVES  SENSITIVITY  SPECIFICITY  PRECISION  ACCURACY  INTERSECTION_UNION  MIN SEPAI  MAX SEPAI  MEAN SEPAI
+       105          200        0.030159         22742.0         45487.0           1038.0           2733.0     0.892718     0.977689    0.95635  0.947625            0.857768   0.857768   0.977689     0.92643
+    MEAN:           200        0.030159         22742.0         45487.0           1038.0           2733.0     0.892718     0.977689    0.95635  0.947625            0.857768   0.857768   0.977689     0.92643
+     STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000     0.000000    0.00000  0.000000            0.000000   0.000000   0.000000     0.00000
+
+******************************************
+************* Method: DYNIFT ***************
+******************************************
+IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_POSITIVES  FALSE_NEGATIVES  SENSITIVITY  SPECIFICITY  PRECISION  ACCURACY  INTERSECTION_UNION  MIN SEPAI  MAX SEPAI  MEAN SEPAI
+       105          200        0.030166         21516.0         46382.0            143.0           3959.0     0.844593     0.996926   0.993398  0.943028            0.839878   0.839878   0.996926    0.923565
+    MEAN:           200        0.030166         21516.0         46382.0            143.0           3959.0     0.844593     0.996926   0.993398  0.943028            0.839878   0.839878   0.996926    0.923565
+     STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000     0.000000   0.000000  0.000000            0.000000   0.000000   0.000000    0.000000
+
