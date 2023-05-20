@@ -19,20 +19,28 @@ The project hierarchy and folders description is as follows
 
 ## Screenshots
 ### Classification
-![Classification](/screenshots/classificacao.JPG "Classification")
-
+<div align="center">
+![Classification](/screenshots/classificacao.JPG "Classification" width=100)
+</div>
 ### Segmentation
-![Segmentation](/screenshots/segmentation.PNG "Segmentation")
-
+<div align="center">
+![Segmentation](/screenshots/segmentation.PNG "Segmentation" width=100)
+</div>
 
 ### Labeling
-![Labeling](/screenshots/labeling.png "Labeling")
-
+<div align="center">
+![Labeling](/screenshots/labeling.png "Labeling"  width=100)
+</div>
 
 ### SVM and GrabCut Methods
-![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM")
+<div align="center">
+![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM"  width=100)
+</div>
+
 ### DISF Results and Examples
+<div align="center">
 ![DISF Results and Examples](/screenshots/exemplosdisf.JPG "DISF Results and Examples")
+</div>
 
 ## Instruction for running the GUI JAVA
 
