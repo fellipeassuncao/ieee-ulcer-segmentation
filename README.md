@@ -25,6 +25,7 @@ The project hierarchy and folders description is as follows
 <p align="center">
 ![Segmentation](/screenshots/segmentation.PNG "Segmentation")
 </p>
+
 ### Labeling
 <p align="center">
 ![Labeling](/screenshots/labeling.png "Labeling")
