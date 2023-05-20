@@ -1,0 +1,53 @@
+
+SET(CMAKE_ALLOW_LOOSE_LOOP_CONSTRUCTS true)
+cmake_minimum_required(VERSION 2.4.0)
+if(COMMAND cmake_policy)
+  cmake_policy(SET CMP0003 NEW)
+endif(COMMAND cmake_policy)
+MESSAGE("** ERGC Superpixels **")
+
+#----------------------------------------------------------------------------#
+# LIST OF OPERATORS
+#----------------------------------------------------------------------------#
+SET( SEGMENTATION_OPERS_BINARIES
+  "example_ergc"
+  "example_refinement"
+)
+#----------------------------------------------------------------------------#
+# ERGC EXTERNAL NEEDED LIBRARIES
+#----------------------------------------------------------------------------#
+SET( CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules")
+
+#-- CImg
+FIND_PACKAGE(CImg REQUIRED)
+IF(CIMG_FOUND)
+	INCLUDE_DIRECTORIES(${CIMG_INCLUDE_DIR})
+ENDIF(CIMG_FOUND)
+#-- X11 for CIMG
+FIND_PACKAGE(X11 REQUIRED)
+IF(X11_FOUND)
+	INCLUDE_DIRECTORIES(${X11_INCLUDE_DIR})
+ENDIF(X11_FOUND)
+MESSAGE(${X11_INCLUDE_DIR})
+MESSAGE(${X11_LIBRARIES} )
+#-- LAPACK
+FIND_PACKAGE(LAPACK REQUIRED)
+
+
+#----------------------------------------------------------------------------#
+# SEGMENTATION OPERATORS
+#----------------------------------------------------------------------------#
+SET( SEGMENTATION_OPERS_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
+SET( EXECUTABLE_OUTPUT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/bin" )
+# -- SEGMENTATION OPERATORS COMPILATION OPTIONS
+SET( CMAKE_CXX_COMPILER "/usr/bin/g++" )
+# /!\ Il faut deplacer -lpthread (temporaire) /!\ /!\ /!\
+SET( CMAKE_CXX_FLAGS "-O2 -Wall -Wextra -pedantic -ansi -pthread -llapack -lblas -lGL -lSDL -lz")
+ADD_DEFINITIONS("-DMAIN -Dcimg_use_lapack")
+FOREACH( op ${SEGMENTATION_OPERS_BINARIES} )
+  ADD_EXECUTABLE( ${op} ${SEGMENTATION_OPERS_SOURCE_DIR}/${op}.cpp )
+  TARGET_LINK_LIBRARIES(${op} 
+    ${X11_LIBRARIES} 
+    ${LAPACK_LIBRARIES}
+    )
+ENDFOREACH( op )

@@ -1,0 +1,1 @@
+This project is for our paper "A NOVEL CENTROID UPDATE APPROACH FOR CLUSTERING-BASED SUPERPIXEL METHODS AND SUPERPIXEL-BASED EDGE DETECTION". You can download our paper on https://arxiv.org/abs/1910.08439.
