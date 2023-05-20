@@ -18,18 +18,22 @@ The project hierarchy and folders description is as follows
 - Check dependences in pom.xml
 
 ## Screenshots
-
 ### Classification
 ![Classification](/screenshots/classificacao.JPG "Classification")
 
 ### Segmentation
+<p align="center">
 ![Segmentation](/screenshots/segmentation.PNG "Segmentation")
+</p>
 ### Labeling
+<p align="center">
 ![Labeling](/screenshots/labeling.png "Labeling")
-### GrabCut SVM
+</p>
+
+### SVM - GrabCut
 ![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM")
-### Examples and DISF Results
-![Examples and DISF Results](/screenshots/exemplosdisf.JPG "Examples and DISF Results")
+### DISF Results and Examples
+![DISF Results and Examples](/screenshots/exemplosdisf.JPG "DISF Results and Examples")
 
 ## Instruction for running the GUI JAVA
 
