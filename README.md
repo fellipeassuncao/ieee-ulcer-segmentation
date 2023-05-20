@@ -22,16 +22,14 @@ The project hierarchy and folders description is as follows
 ![Classification](/screenshots/classificacao.JPG "Classification")
 
 ### Segmentation
-<p align="center">
 ![Segmentation](/screenshots/segmentation.PNG "Segmentation")
-</p>
+
 
 ### Labeling
-<p align="center">
 ![Labeling](/screenshots/labeling.png "Labeling")
-</p>
 
-### SVM - GrabCut
+
+### SVM and GrabCut Methods
 ![GrabCut SVM](/screenshots/grabcutsvm.JPG "GrabCut SVM")
 ### DISF Results and Examples
 ![DISF Results and Examples](/screenshots/exemplosdisf.JPG "DISF Results and Examples")
