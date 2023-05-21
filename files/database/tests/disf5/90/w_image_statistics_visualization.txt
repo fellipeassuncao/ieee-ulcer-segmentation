@@ -14,19 +14,4 @@ IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_P
     MEAN:           200        0.026299         35039.0         28537.0            290.0           8134.0     0.811595      0.98994   0.991791     0.883             0.80618    0.80618   0.991791    0.896501
      STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000      0.00000   0.000000     0.000             0.00000    0.00000   0.000000    0.000000
 
-******************************************
-************* Method: IFT ***************
-******************************************
-IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_POSITIVES  FALSE_NEGATIVES  SENSITIVITY  SPECIFICITY  PRECISION  ACCURACY  INTERSECTION_UNION  MIN SEPAI  MAX SEPAI  MEAN SEPAI
-        90          200        0.026299         19565.0         28827.0              0.0          23608.0     0.453177          1.0        1.0  0.672111            0.453177   0.453177        1.0    0.715693
-    MEAN:           200        0.026299         19565.0         28827.0              0.0          23608.0     0.453177          1.0        1.0  0.672111            0.453177   0.453177        1.0    0.715693
-     STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000          0.0        0.0  0.000000            0.000000   0.000000        0.0    0.000000
-
-******************************************
-************* Method: DYNIFT ***************
-******************************************
-IMAGE_NAME  SUPERPIXELS  EXECUTION_TIME  TRUE_POSITIVES  TRUE_NEGATIVES  FALSE_POSITIVES  FALSE_NEGATIVES  SENSITIVITY  SPECIFICITY  PRECISION  ACCURACY  INTERSECTION_UNION  MIN SEPAI  MAX SEPAI  MEAN SEPAI
-        90          200        0.027965         28070.0         28760.0             67.0          15103.0     0.650175     0.997676   0.997619  0.789306            0.649167   0.649167   0.997676    0.816788
-    MEAN:           200        0.027965         28070.0         28760.0             67.0          15103.0     0.650175     0.997676   0.997619  0.789306            0.649167   0.649167   0.997676    0.816788
-     STD:           200        0.000000             0.0             0.0              0.0              0.0     0.000000     0.000000   0.000000  0.000000            0.000000   0.000000   0.000000    0.000000
 
