@@ -1,2 +1,0 @@
-test_img.jpg
-test_img2.jpg

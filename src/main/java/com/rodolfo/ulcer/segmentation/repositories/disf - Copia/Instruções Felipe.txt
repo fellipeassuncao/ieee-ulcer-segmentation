@@ -1,3 +1,0 @@
-Comando para compilar o DISF
->>> mingw32-make c
->>> ./bin/DISF_demo  
