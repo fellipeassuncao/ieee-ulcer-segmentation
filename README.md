@@ -29,6 +29,8 @@ Resources and extra documentation for the manuscript "A graph-based superpixel s
 ![DISF Results and Examples](/screenshots/exemplosdisf.JPG "DISF Results and Examples")
 
 ## Instruction for running the GUI JAVA
+The original project created by Silva e Machado (2021) is disponible in:
+[Original Java Project](https://github.com/RodolfoHerman/ulcer-segmentation)
 
 Open the project path in your preferred IDLE and type in the terminal:
 
